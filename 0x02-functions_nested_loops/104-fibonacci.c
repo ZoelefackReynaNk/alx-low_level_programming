@@ -16,19 +16,19 @@ int main(void)
 	for (i = 1; i <= 98; ++i)
 	{
         if (i <= 9){
-            _putchar(j + '0');
+            putchar(j + '0');
         } else{
-            _putchar((j / 100) + '0');
-            _putchar(((j % 100) / 10) + '0');
-            _putchar((j % 10) + '0');
+            putchar((j / 100) + '0');
+            putchar(((j % 100) / 10) + '0');
+            putchar((j % 10) + '0');
         }
         next = j + k;
         j = k;
         k = next;
-        _putchar(',');
-        _putchar(' ');
+        putchar(',');
+        putchar(' ');
 		
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
