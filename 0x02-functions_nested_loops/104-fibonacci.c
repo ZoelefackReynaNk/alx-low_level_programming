@@ -14,19 +14,21 @@ int main(void)
 
 	for (i = 1; i <= 98; ++i)
 	{
-        if (i <= 9){
-            printf("%d",j);
+        printf("%d",j);
+        /*//if (i <= 9)
+        //{
             /*putchar(j + '0');*/
-        } else if (i < 99 && i >9){
-            printf("%d",j);
+        //} 
+        //else if (i < 99 && i >9){
             /*putchar((j / 10) + '0');
             putchar((j % 10) + '0');*/
-        } else{
-            printf("%d",j);
+        //} 
+        //else
+        //{
             /*putchar((j / 100) + '0');
             putchar(((j % 100) / 10) + '0');
             putchar((j % 10) + '0');*/
-        }
+        //}*/
         next = j + k;
         j = k;
         k = next;
@@ -34,6 +36,5 @@ int main(void)
         putchar(' ');
 		
 	}
-	putchar('\n');
 	return (0);
 }
