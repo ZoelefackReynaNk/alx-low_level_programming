@@ -32,8 +32,8 @@ int main(void)
         next = j + k;
         j = k;
         k = next;
-        putchar(',');
-        putchar(' ');
+        putchar("%c",",");
+        printf("%s", " ");
 		
 	}
 	return (0);
