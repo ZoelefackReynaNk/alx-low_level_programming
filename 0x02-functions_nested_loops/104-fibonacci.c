@@ -15,14 +15,14 @@ int main(void)
 	for (i = 1; i <= 98; ++i)
 	{
         if (i <= 9){
-            printf(j);
+            printf("%d",j);
             /*putchar(j + '0');*/
         } else if (i < 99 && i >9){
-            printf(j);
+            printf("%d",j);
             /*putchar((j / 10) + '0');
             putchar((j % 10) + '0');*/
         } else{
-            printf(j);
+            printf("%d",j);
             /*putchar((j / 100) + '0');
             putchar(((j % 100) / 10) + '0');
             putchar((j % 10) + '0');*/
