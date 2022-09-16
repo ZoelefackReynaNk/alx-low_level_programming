@@ -14,7 +14,7 @@ int main()
                      sum = sum + i;   
                 }
                 else{
-                        continue
+                        continue;
                 }
         }
         printf("%d\n", sum);
