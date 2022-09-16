@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * print sum of  all multiples of 3 
+ * main: print sum of  all multiples of 3 
  * or 5 below 1024,
  * followed by a new line
+ * return: 0 on sucess.
  */
 int main()
 {
