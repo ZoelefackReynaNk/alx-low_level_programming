@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 {
         int num, min, i, values[] = {25, 10, 5, 2, 1}, r, d, mins[5], ch;
         
-        if (argc>1 || argc<1){
+        if (argc != 2){
                 printf("Error\n");
                 return (1);
         }
