@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
                 return (1);
         }
         
-        if (num < 0){
+        if (argc < 0){
                 printf("0\n");
                 return (1);
         }
@@ -78,13 +78,13 @@ int main(int argc, char *argv[])
                 else if (num != values[i] && (r== 1|| r == 2 || r == 5 || r == 10)){
                         min = d+1;
                 }
-                else if (num != values[i] && r == 3 || r == 12 || r == 4 || r == 6 || r == 7 || r == 11 || r == 15 || r == 20){
+                else if ((num != values[i] && r == 3) || r == 12 || r == 4 || r == 6 || r == 7 || r == 11 || r == 15 || r == 20){
                         min = d + 2;
                 }
-                else if (num != values[i] && r == 8 || r == 9 || r == 13 || r == 14 || r == 16 || r == 17 || r == 21 || r == 22 || r == 25){
+                else if ((num != values[i] && r == 8) || r == 9 || r == 13 || r == 14 || r == 16 || r == 17 || r == 21 || r == 22 || r == 25){
                         min = d + 3;
                 }
-                else if (num != values[i] && r == 18 || r == 19 || r == 24){
+                else if ((num != values[i] && r == 18) || r == 19 || r == 24){
                         min = d + 4;
                 }
                 mins[i] = min;
